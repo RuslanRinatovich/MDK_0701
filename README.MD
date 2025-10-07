@@ -4,3 +4,4 @@
 2. [Лекция 2: Обязанности администратора баз данных](LESSONS/LESSON2.MD)
 3. [Практическая работа №1: Знакомство с Microsoft SQL Server и установка Developer Edition](LESSONS/PR1.MD)
 4. [Лекция 3: Архитектура MS SQL Server. Управление экземпляром и базами данных](LESSONS/LESSON3.MD)
+5. [Практическая работа №2: Управление экземпляром и базами данных в MS SQL Server](LESSONS/PR2.MD)
