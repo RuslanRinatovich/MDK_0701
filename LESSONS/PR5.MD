@@ -29,6 +29,7 @@ GO
 
 -- Создаём схемы для разных подсистем
 CREATE SCHEMA academy;
+GO
 CREATE SCHEMA hr;
 GO
 
