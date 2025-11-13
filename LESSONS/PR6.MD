@@ -252,7 +252,7 @@ GO
 2. Создайте:
    ```sql
    CREATE NONCLUSTERED INDEX IX_Students_Group_Cover 
-   ON Students(GroupCode) 
+   ON Students(GroupCode, StudentID)
    INCLUDE (FullName, Email, AvgScore);
    ```
 
