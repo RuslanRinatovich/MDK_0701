@@ -423,7 +423,7 @@ INCLUDE (FullName, Email);
 
 1. Оформите отчёт в Microsoft Word.  
 2. Сохраните файл в формате `.docx`.  
-3. Перейдите по ссылке на [**Google-форму**](https://forms.gle/ZyRB7xgMEPcXqGim7).  
+3. Перейдите по ссылке на [**Google-форму**](https://forms.gle/9ijiNJHsx9bSju9W6).  
 4. Укажите ФИО и группу.  
 5. Загрузите файл отчёта.  
 6. **Срок сдачи**: до 23:59 **27 ноября 2025 г.**
