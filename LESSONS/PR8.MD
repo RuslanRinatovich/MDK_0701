@@ -295,12 +295,15 @@ GO
 ```sql
 USE StatsLab_Final;
 GO 
+
 SET STATISTICS IO ON;
 SET STATISTICS TIME ON;
 
+-- Добавляем хинт для принудительного использования индекса и поиска
 SELECT OrderID, Amount, Description 
-FROM Orders 
+FROM Orders WITH(INDEX(IX_Orders_Status), FORCESEEK) 
 WHERE Status = 'new';
+
 ```
 
 #### Шаг 3. В отчёте:  
