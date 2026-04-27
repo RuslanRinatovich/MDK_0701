@@ -38,20 +38,20 @@
 
 ```mermaid
 graph TD
-    A[SQL Server Agent] --> B[Задания (Jobs)]
-    A --> C[Расписания (Schedules)]
-    A --> D[Оповещения (Alerts)]
-    A --> E[Операторы (Operators)]
+    A["SQL Server Agent"] --> B["Задания (Jobs)"]
+    A --> C["Расписания (Schedules)"]
+    A --> D["Оповещения (Alerts)"]
+    A --> E["Операторы (Operators)"]
     
-    B --> B1[Шаг 1: T-SQL]
-    B --> B2[Шаг 2: PowerShell]
-    B --> B3[Шаг 3: CmdExec]
+    B --> B1["Шаг 1: T-SQL"]
+    B --> B2["Шаг 2: PowerShell"]
+    B --> B3["Шаг 3: CmdExec"]
     
-    D --> F[Реакция на ошибки]
-    D --> G[Реакция на события]
+    D --> F["Реакция на ошибки"]
+    D --> G["Реакция на события"]
     
-    E --> H[Email уведомления]
-    E --> I[События в лог]
+    E --> H["Email уведомления"]
+    E --> I["События в лог"]
 ```
 
 ### 1.2. История и версии
